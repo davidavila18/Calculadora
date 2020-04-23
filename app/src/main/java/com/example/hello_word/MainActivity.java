@@ -30,10 +30,11 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(this,"LLene los campos");
         }
         else{
-            VTAD = VO * 1.2142
+            VTAD = VO * 1.2142;
             //VTAD = Format(VTAD, "$#,##")
             if (DMO <=210) {
                 VMN = VSA * 1.2142;
+                //777
             }
             else if( DMO >= 211 & DMO <= 360) {
                 VMN = VSA * 0.9 * 1.2142;
